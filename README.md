@@ -24,3 +24,9 @@ https://rheech22.github.io/clone_website_SCSS_2/
 
 -   그리드 적용
 -   SCSS 연습
+
+# 알게된 것
+
+- direct children을 선택할 수 있음
+ex. 'body > *:not(.footer)' means that body 태그의 다이렉트 칠드런을 모두 선택(.footer를 제외한)
+- @extend를 통해 스타일 상속시키기(실제 적용하진 않음)
